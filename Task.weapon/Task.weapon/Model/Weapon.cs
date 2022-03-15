@@ -54,7 +54,7 @@ namespace Task.weapon.Model
         }
         public void GetRemainBulletCount()
         {
-            if (bulletCapacity > 0 && bulletsCount >= 0)
+            if (bulletCapacity > 0 && bulletsCount >= 0 && bulletCapacity> bulletsCount)
             {
                 int NeededbulletsCount = bulletCapacity - bulletsCount;
                 Console.WriteLine($"{NeededbulletsCount} - Darağın dolmasi üçün lazım olan gülle sayı");
@@ -95,10 +95,10 @@ namespace Task.weapon.Model
         }
         public void ShowInfo()
         {
-            Console.WriteLine("1.Darağın güllə tutumu:");
-            Console.WriteLine("2.Daraqdakı gəllə sayı:");
-            Console.WriteLine("3.Darağın boşalma saniyəsi:");
-            Console.WriteLine("4.Atış modu:");
+            Console.WriteLine("1.Shoot");
+            Console.WriteLine("2.Fire");
+            Console.WriteLine("3.Reload");
+            Console.WriteLine("4.changefiremode");
 
 
         }
