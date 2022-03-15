@@ -95,10 +95,10 @@ namespace Task.weapon.Model
         }
         public void ShowInfo()
         {
-            Console.WriteLine($"Daragin gulle tutumu:{bulletCapacity }");
-            Console.WriteLine($"Daraqdaki gulle sayi:{bulletsCount }");
-            Console.WriteLine($"Daragin bosalma saniyesi:{dischangeSeconds }");
-            Console.WriteLine($"Atis modu:{shootingMode }");
+            Console.WriteLine("1.Daragin gulle tutumu:");
+            Console.WriteLine("2.Daraqdaki gulle sayi:");
+            Console.WriteLine("3.Daragin bosalma saniyesi:");
+            Console.WriteLine("4.Atis modu:");
 
 
         }

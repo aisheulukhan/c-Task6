@@ -6,7 +6,17 @@ namespace Task.weapon.Model
     {
         static void Main(string[] args)
         {
-            Weapon weapon = new Weapon(30, 10, 0.2, true);
+            Console.WriteLine("Daragin gulle tutumu:");
+            int bulletCapacity = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Daraqdaki gulle sayi:");
+            int bulletsCount = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Daragin bosalma saniyesi");
+            double dischangeSeconds = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Atis modu");
+            bool shootingMode = Convert.ToBoolean(Console.ReadLine());
+
+
+            Weapon weapon = new Weapon(bulletCapacity, bulletsCount, dischangeSeconds, shootingMode);
             
             int key = 0;
             do
