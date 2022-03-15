@@ -21,15 +21,15 @@ namespace Task.weapon.Model
         public void Shoot()
         {
 
-            if (bulletsCount > 0)
+            if (bulletsCount == 0)
 
             {
-                bulletsCount = bulletsCount - 1;
-                Console.WriteLine("Diw diw");
-            }
-            else if (bulletsCount == 0)
-            {
                 Console.WriteLine("Gulle bitib");
+            }
+            else if (bulletsCount > 0)
+            {
+                bulletsCount -= 1;
+                Console.WriteLine("Diw Diw");
             }
             else
             {
@@ -54,9 +54,10 @@ namespace Task.weapon.Model
         }
         public void GetRemainBulletCount()
         {
-            if (bulletCapacity > 0 && bulletsCount > 0)
+            if (bulletCapacity > 0 && bulletsCount >= 0)
             {
-                Console.WriteLine($"{bulletCapacity - bulletsCount} - Daragin dolmasi ucun lazim olan gulle sayi");
+                int NeededbulletsCount = bulletCapacity - bulletsCount;
+                Console.WriteLine($"{NeededbulletsCount} - Daragin dolmasi ucun lazim olan gulle sayi");
             }
             else
             {
@@ -66,9 +67,12 @@ namespace Task.weapon.Model
         }
         public void Reload()
         {
-            if (bulletCapacity > 0 && bulletsCount > 0)
+            if (bulletCapacity > 0 && bulletsCount >= 0)
             {
-                Console.WriteLine($"{(bulletCapacity - bulletsCount) + bulletsCount} - Daraq yeniden doldu");
+                
+               int NeededbulletsCount = bulletCapacity - bulletsCount;
+                bulletsCount += NeededbulletsCount;
+                Console.WriteLine( " Daraq yeniden doldu");
             }
             else
             {
