@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\bin\Debug\netcoreapp3.1\Task.weapon.exe
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\bin\Debug\netcoreapp3.1\Task.weapon.deps.json
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\bin\Debug\netcoreapp3.1\Task.weapon.runtimeconfig.json
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\bin\Debug\netcoreapp3.1\Task.weapon.runtimeconfig.dev.json
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\bin\Debug\netcoreapp3.1\Task.weapon.dll
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\bin\Debug\netcoreapp3.1\Task.weapon.pdb
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.AssemblyInfo.cs
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.dll
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.pdb
+C:\Users\HP\Desktop\Tasks\Task.weapon\Task.weapon\obj\Debug\netcoreapp3.1\Task.weapon.genruntimeconfig.cache
