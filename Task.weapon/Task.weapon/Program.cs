@@ -6,13 +6,14 @@ namespace Task.weapon.Model
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Daragin gulle tutumu:");
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.WriteLine("Darağın güllə tutumu:");
             int bulletCapacity = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Daraqdaki gulle sayi:");
+            Console.WriteLine("Daraqdakı güllə sayı:");
             int bulletsCount = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Daragin bosalma saniyesi");
+            Console.WriteLine("Darağın boşalma saniyəsi");
             double dischangeSeconds = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Atis modu");
+            Console.WriteLine("Atış modu");
             bool shootingMode = Convert.ToBoolean(Console.ReadLine());
 
 
@@ -21,7 +22,7 @@ namespace Task.weapon.Model
             int key = 0;
             do
             {
-                Console.WriteLine("Reqem daxil edin : ");
+                Console.WriteLine("Rəqəm daxil edin : ");
                 key = Convert.ToInt32(Console.ReadLine());
                 switch (key)
                 {
@@ -44,10 +45,10 @@ namespace Task.weapon.Model
                         weapon.changefiremode();
                         break;
                     case 6:
-                        Console.WriteLine("Sagolun");
+                        Console.WriteLine("Sağolun");
                         break;
                     default:
-                        Console.WriteLine("Yalnis daxil etdiniz");
+                        Console.WriteLine("Yalnış daxil etdiniz");
                         break;
                 }
             } while (key != 6);

@@ -24,16 +24,16 @@ namespace Task.weapon.Model
             if (bulletsCount == 0)
 
             {
-                Console.WriteLine("Gulle bitib");
+                Console.WriteLine("Güllə bitib");
             }
             else if (bulletsCount > 0)
             {
                 bulletsCount -= 1;
-                Console.WriteLine("Diw Diw");
+                Console.WriteLine("Dış Dış");
             }
             else
             {
-                Console.WriteLine("Sayi menfi ola bilmez");
+                Console.WriteLine("Sayı mənfi ola bilməz");
             }
 
         }
@@ -43,11 +43,11 @@ namespace Task.weapon.Model
             if (dischangeSeconds > 0 && bulletsCount > 0 && bulletCapacity > 0)
             {
                 double Second= (bulletsCount * dischangeSeconds) / bulletCapacity;
-                Console.WriteLine($"{Second} - Saniyeye bitir");
+                Console.WriteLine($"{Second} - Saniyəyə bitir");
             }
             else
             {
-                Console.WriteLine("Yalnis daxil edilib!");
+                Console.WriteLine("Yalnış daxil edilib!");
             }
 
 
@@ -57,11 +57,11 @@ namespace Task.weapon.Model
             if (bulletCapacity > 0 && bulletsCount >= 0)
             {
                 int NeededbulletsCount = bulletCapacity - bulletsCount;
-                Console.WriteLine($"{NeededbulletsCount} - Daragin dolmasi ucun lazim olan gulle sayi");
+                Console.WriteLine($"{NeededbulletsCount} - Darağın dolmasi üçün lazım olan gülle sayı");
             }
             else
             {
-                Console.WriteLine("Yalnis daxil edilib!");
+                Console.WriteLine("Yalnış daxil edilib!");
             }
 
         }
@@ -72,11 +72,11 @@ namespace Task.weapon.Model
                 
                int NeededbulletsCount = bulletCapacity - bulletsCount;
                 bulletsCount += NeededbulletsCount;
-                Console.WriteLine( " Daraq yeniden doldu");
+                Console.WriteLine("Daraq yenidən doldu");
             }
             else
             {
-                Console.WriteLine("Yalnis daxil edilib!");
+                Console.WriteLine("Yalnış daxil edilib!");
             }
 
         }
@@ -89,16 +89,16 @@ namespace Task.weapon.Model
             }
             else
             {
-                Console.WriteLine("Tekdir");
+                Console.WriteLine("Təkdir");
                 shootingMode = false;
             }
         }
         public void ShowInfo()
         {
-            Console.WriteLine("1.Daragin gulle tutumu:");
-            Console.WriteLine("2.Daraqdaki gulle sayi:");
-            Console.WriteLine("3.Daragin bosalma saniyesi:");
-            Console.WriteLine("4.Atis modu:");
+            Console.WriteLine("1.Darağın güllə tutumu:");
+            Console.WriteLine("2.Daraqdakı gəllə sayı:");
+            Console.WriteLine("3.Darağın boşalma saniyəsi:");
+            Console.WriteLine("4.Atış modu:");
 
 
         }
